@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+
+h1{
+  font-size: 36px;
+   margin-bottom: 40px; 
+}
+
+.header .navbar-brand img{
+    height: 40px;
+}
+.header {
+    background-color: white;
+    font-size: 13px;
+    color: gray;
+}
+.header .nav-name{
+    color: black;
+    font-weight: bold;
+    margin: auto 10px;
+}
+.header .nav-vl{
+    border-left: 2px solid lightgray;
+    height: 24px;
+    display: block;
+    margin: auto 16px;
+}
+.page-container {
+    max-width: 800px;
+    padding: 80px 24px;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .page-container {
+        padding: 24px;
+    }
+}
+
+#login-modal .modal-dialog {
+    width: 350px;
+    margin: auto;
+}
+
+.modal-footer {
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #333333;
+    font-size: 13px;
+}
+.footer-container{
+    padding: 24px;
+}
+.footer-cities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-city{
+    margin-bottom:8px ;
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    .footer-city{
+        width: 100%;
+    }
+}
+.footer-city a{
+    color: white;
+}
+
+.footer-copyright {
+    color: #a9a9a9;
+    text-align: center;
+    padding-top: 24px;
+}
